@@ -15,4 +15,5 @@ RUN pip install -r requirements.txt
 EXPOSE 5000
 
 
-CMD ["flask --app hello_app.webapp.py --debug run" ]
+CMD ["flask", "--app", "hello_app.webapp", "--debug", "run"]
+
