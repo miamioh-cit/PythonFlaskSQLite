@@ -15,4 +15,4 @@ RUN pip install -r requirements.txt
 EXPOSE 5000
 
 
-CMD [ "python3", "webapp.py" ]
+CMD [ "python3", "startup.py" ]
