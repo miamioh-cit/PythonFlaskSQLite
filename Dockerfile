@@ -32,4 +32,4 @@ COPY . .
 #COPY requirements.txt /
 #RUN pip install --no-cache-dir -U pip
 #RUN pip install --no-cache-dir -r /requirements.txt
-CMD [flask --app hello_app.webapp.py]
+CMD [python3] [startup.py]
