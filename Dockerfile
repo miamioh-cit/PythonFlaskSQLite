@@ -20,7 +20,6 @@ ENV UWSGI_INI uwsgi.ini
 # when all those static files are collected together.
 ENV STATIC_URL /hello_app/static
 
-#CMD ["flask", "--app", "hello_app.webapp", "--debug", "run"]
+CMD ["flask", "--app", "hello_app.webapp", "--debug", "run"]
 
-CMD [python3 startup.py]
 
