@@ -24,7 +24,7 @@ ENV STATIC_URL /hello_app/static
 WORKDIR /hello_app
 
 # Copy the app contents to the image
-COPY . /hello_app
+COPY . .
 
 # If you have additional requirements beyond Flask (which is included in the
 # base image), generate a requirements.txt file with pip freeze and uncomment
