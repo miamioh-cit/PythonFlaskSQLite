@@ -35,14 +35,14 @@ spec:
           service:
             name: flaskweb-service
             port:
-              number: 80
+              number: 5000
 ---
 apiVersion: v1
 kind: Service
 metadata:
   name: flaskweb-service
 spec:
-#  type: LoadBalancer 
+  type: LoadBalancer 
 #  loadBalancerIP: 10.48.10.116                                     
   ports:
   - protocol: TCP
